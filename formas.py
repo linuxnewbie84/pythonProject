@@ -13,7 +13,7 @@ class Circulo(Forma):
         #Una nueva sobrecarga del método de base
 
         def perimetro(self):
-            return  2 * 3.1416 * self.radio
+            return 2 * 3.1416 * self.radio
 #Creación de una lista de formas concretas
 formas_c =[Circulo(3),Cuadrado(5), Circulo(6)]
 
