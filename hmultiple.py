@@ -17,3 +17,9 @@ h = Heroes()
 print(isinstance(h, Ladron))
 #Imprimirá un valor booleano si es una instancia de la clase Druida
 print(isinstance(h, Druida))
+#atributos recuperados de Herencia
+print(h.magia)
+#Provoca un error porque no ha sido bien definidad
+#La habilidad sí está bien definida, ésto porque la clase Ladron se situó en primer lugar
+print(h.habilidad)
+
